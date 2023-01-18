@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+    each user in users
+        li Usuario #{user.nome} tem #{user.idade} anos
